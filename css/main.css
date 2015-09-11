@@ -550,7 +550,7 @@ a:active {
 .service .icon-box {
     display: inline-block;
     margin-bottom: 15px;
-    overflow-y: hidden;
+    overflow: hidden;
     position: relative;
     width: 100%;
 }

@@ -12,7 +12,7 @@ Contact start
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-5 wow fadeInUp">
+            <div class="col-xs-12 col-sm-6 col-md-5 wow fadeInUp">
                 <div class="block text-left">
                     <div class="sub-heading">
                         <h4><?php echo $contents['subtitle']; ?></h4>
@@ -30,7 +30,7 @@ Contact start
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="contact-form">
                     <?php echo do_shortcode($contents['contact_form']) ?>
                 </div>

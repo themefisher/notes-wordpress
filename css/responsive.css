@@ -11,7 +11,9 @@ px      68    160    252    344    436    528    620    712    */
   }
   header .navbar-default {
     padding-right: 0;
-    width: 93%;
+  }
+  #hero-area .block h1:before {
+    display: none;
   }
   #service .heading p {
     font-size: 14px;
@@ -34,6 +36,9 @@ px      68    160    252    344    436    528    620    712    */
   #contact .block textarea {
     width: 100%;
   }
+  .service-item {
+    margin-bottom: 20px;
+  }
 }
 /*		Mobile Layout: 320px.
 		Gutters: 24px.
@@ -47,13 +52,12 @@ px      68    160    252    */
     text-align: center;
   }
   header .navbar-default {
-    padding-right: 0;
+    padding-right: 10px;
     width: 100%;
-    margin-left: -15px;
   }
   header .navbar-default .navbar-toggle {
-    margin-right: 10px;
-    margin-top: 20px;
+    margin-right:0px;
+    margin-top: 10px;
   }
   header .block h1 {
     font-size: 25px;
@@ -68,9 +72,45 @@ px      68    160    252    */
     margin-right: 5px;
     margin-bottom: 20px;
   }
+  #hero-area .block h1:before {
+    display: none;
+  }
+  #hero-area .block {
+    padding-top: 0;
+  }
+  .header {
+    width: 100%;
+  }
+  .heading {
+    padding-bottom: 40px;
+  }
+  .section {
+      padding: 70px 0;
+  }
+  .navbar-default {
+    width: 100%;
+  }
+  .navbar-default.animated {
+    width: 100%;
+  }
+  .navbar-default.animated .navbar-toggle .icon-bar {
+    background: #333;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+  #hero-area .block .counter {
+    margin-top: 30px;
+  }
+  #hero-area .block .counter ul li {
+    width: 48%;
+  }
   #service .heading p {
     font-size: 15px;
     padding: 0px 5px;
+  }
+  .service-item {
+    margin-bottom: 20px;
   }
   #about .heading p {
     font-size: 15px;
@@ -81,6 +121,12 @@ px      68    160    252    */
   }
   #call-to-action {
     text-align: center;
+  }
+  .call-to-action .subscription-form input[type=email] {
+    width: 50%!important;
+  }
+  .call-to-action .subscription-form input[type=submit] {
+    width: 25%;
   }
   #call-to-action .block h2 {
     font-size: 20px;
@@ -98,4 +144,6 @@ px      68    160    252    */
   #contact .block textarea {
     width: 100%;
   }
+
+
 }
